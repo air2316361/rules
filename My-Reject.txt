@@ -1,2 +1,3 @@
 DOMAIN,eventlog.gryphline.com
 DOMAIN,event-log-api-data-platform-data-lake-prod.gryphline.com
+DOMAIN,event-log-api-ipv6.gryphline.com
