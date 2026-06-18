@@ -1,1 +1,2 @@
 DOMAIN-SUFFIX,gryphline.com
+DOMAIN-SUFFIX,skport.com
