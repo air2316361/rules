@@ -13,28 +13,28 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
     path: ./ruleset/banad.yaml
     interval: 86400
   banprogramad:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
     path: ./ruleset/banprogramad.yaml
     interval: 86400
   gameserver:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/air2316361/rules/main/My-Direct.txt
+    url: https://cdn.jsdelivr.net/gh/air2316361/rules@master/My-Direct.txt
     path: ./ruleset/gameserver.yaml
     interval: 86400
   banlog:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/air2316361/rules/main/My-Reject.txt
+    url: https://cdn.jsdelivr.net/gh/air2316361/rules@master/My-Reject.txt
     path: ./ruleset/banlog.yaml
     interval: 86400
 rules:
