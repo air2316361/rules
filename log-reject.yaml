@@ -23,14 +23,23 @@ rule-providers:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
     path: ./ruleset/banprogramad.yaml
     interval: 86400
+  gameserver:
+    type: gameserver
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/air2316361/rules/main/My-Direct.txt
+    path: ./ruleset/gameserver.yaml
+    interval: 86400
+  banlog:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/air2316361/rules/main/My-Reject.txt
+    path: ./ruleset/banlog.yaml
+    interval: 86400
 rules:
+  - RULE-SET,gameserver,直连
+  - RULE-SET,banlog,拦截
   - RULE-SET,banad,拦截
   - RULE-SET,banprogramad,拦截
-  - DOMAIN,game-config.hypergryph.com,直连
-  - DOMAIN,launcher.hypergryph.com,直连
-  - DOMAIN,u8.hypergryph.com,直连
-  - DOMAIN,beyond-cn.hypergryph.com,直连
-  - DOMAIN-SUFFIX,hypergryph.com,拦截
-  - DOMAIN-SUFFIX,gamesafe.qq.com,拦截
-  - DOMAIN-SUFFIX,anticheatexpert.com,拦截
   - MATCH,直连
