@@ -24,7 +24,7 @@ rule-providers:
     path: ./ruleset/banprogramad.yaml
     interval: 86400
   gameserver:
-    type: gameserver
+    type: http
     behavior: classical
     format: text
     url: https://raw.githubusercontent.com/air2316361/rules/main/My-Direct.txt
