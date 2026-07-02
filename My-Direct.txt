@@ -2,3 +2,4 @@ DOMAIN,game-config.hypergryph.com
 DOMAIN,launcher.hypergryph.com
 DOMAIN,u8.hypergryph.com
 DOMAIN,beyond-cn.hypergryph.com
+DOMAIN,beyond-cn2.hypergryph.com
